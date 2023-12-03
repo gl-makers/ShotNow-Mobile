@@ -1,3 +1,3 @@
 # ShotNow! Mobile
 
-README 暂缺，后期补
+README 暂缺，后期补 
