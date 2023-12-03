@@ -26,3 +26,14 @@ createApp(App)
 .use(Varlet)
 .use(router)
 .mount('#app')
+
+var resizeReloadTimeout: any = null
+
+window.onresize = function() {
+    console.log("resize");
+    
+    if (resizeReloadTimeout) clearTimeout(resizeReloadTimeout)
+    resizeReloadTimeout = setTimeout(() => {
+        window.location.reload()
+    }, 300)
+}

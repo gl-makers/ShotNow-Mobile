@@ -100,10 +100,9 @@ const submit = () => {
   if (!formData.title) {
     return Snackbar("标题不能为空");
   }
-  // date = yy-mm-dd + formdata.time
   const date = new Date().toLocaleDateString("en-US") + " " + formData.time;
   // console.log(formData,date);
-  const tmp = { ...formData, date, key: formData.title + "." + Date.now() }
+  const tmp = { ...formData, date, key: formData.title + "." + Date.now(), end_date: "" }
   // @ts-ignore
   delete tmp.time
   store.shot_record.push(tmp)

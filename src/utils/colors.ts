@@ -1,4 +1,4 @@
-export function generateHSLAColor(str: string, saturation: number = 50, lightness: number = 70, alpha: number = 1): string {
+export function generateHSLAColor(str: string, saturation: number = 60, lightness: number = 60, alpha: number = 1): string {
     // 使用字符串的哈希码生成 Hue
     let hash = 0;
     for (let i = 0; i < str.length; i++) {

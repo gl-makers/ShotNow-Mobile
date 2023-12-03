@@ -6,6 +6,7 @@ type Base = {
 
 type ShotRecord = Base & {
     date: string
+    end_date: string
 }
 
 type ShotRecordStore = ShotRecord & {

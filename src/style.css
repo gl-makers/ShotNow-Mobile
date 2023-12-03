@@ -43,3 +43,17 @@ body {
 .page-change-leave-to {
   display:none 
 }
+/* 如果是电脑端 body 最大宽度 调整为 800 */
+@media (min-width: 800px) {
+  body {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(224, 224, 224);
+  }
+  #app {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    height: 80vh;
+  }
+}
