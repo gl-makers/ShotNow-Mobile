@@ -1,8 +1,8 @@
 name: Deploy To Github pages
+permissions:
+  contents: write
 on:
-  push:
-    branchs:
-      - master
+  push
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
