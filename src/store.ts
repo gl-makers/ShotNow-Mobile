@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 
-import { ref, computed, watch } from 'vue'
+import { ref } from 'vue'
 
 export type Store = ReturnType<typeof useStore>
 

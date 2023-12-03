@@ -50,7 +50,7 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { reactive, ref, watch, defineEmits } from "vue";
+import { reactive, ref, defineEmits } from "vue";
 import { Snackbar } from '@varlet/ui'
 
 import { useStore } from "../store";

@@ -6,7 +6,7 @@ import '@varlet/ui/es/style'
 
 import router from './router'
 
-import { createPinia, PiniaPlugin } from 'pinia'
+import { createPinia } from 'pinia'
 // @ts-ignore
 import piniaPersist from 'pinia-plugin-persist';
 

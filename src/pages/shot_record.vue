@@ -56,7 +56,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { ref, watch } from 'vue';
+import { ref } from 'vue';
 import ShotInfoCollector from '../components/ShotInfoCollector.vue';
 import { useStore } from '../store';
 import { generateHSLAColor } from "../utils/colors";

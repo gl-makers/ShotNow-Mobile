@@ -38,6 +38,7 @@ console.log(routes);
 
 
 const router = createRouter({
+  // @ts-ignore
   routes,
   // : [
   //   {
