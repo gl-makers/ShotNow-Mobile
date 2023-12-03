@@ -34,6 +34,6 @@ window.onresize = function() {
     
     if (resizeReloadTimeout) clearTimeout(resizeReloadTimeout)
     resizeReloadTimeout = setTimeout(() => {
-        window.location.reload()
+        // window.location.reload()
     }, 300)
 }
