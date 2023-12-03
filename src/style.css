@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+.opacity-enter-active,
+.opacity-leave-active {
+  transition: all 0.2s ease;
+  transform: scale(1);
+}
+
+.opacity-enter-from,
+.opacity-leave-to {
+  opacity: 0;
+  transform: scale(0);
+  /* height: 0; */
+}
+.opacity-leave-to {
+  display:none 
+}
+
+.var-card__floating-content {
+  z-index: 99912399;
+  padding: 16px;
+}
+.var-app-bar {
+  transition: all 1s ease;
+}
+.var-card__floater {
+  z-index: 99912399;
+}
+
+.page-change-enter-active,
+.page-change-leave-active {
+  transition: all 0.2s ease;
+  transform: scale(1);
+}
+
+.page-change-enter-from,
+.page-change-leave-to {
+  opacity: 0;
+  transform: scale(0);
+  /* height: 0; */
+}
+.page-change-leave-to {
+  display:none 
+}
