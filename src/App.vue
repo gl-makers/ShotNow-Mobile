@@ -41,6 +41,12 @@ const router = useRouter()
 
 const active_tab = ref("shot_record");
 
+// 从路由 获取 active_tab
+router.isReady().then(() => {
+  // @ts-ignore
+  active_tab.value = router.currentRoute.value.name
+})
+
 watch(active_tab, (val) => {
   // console.log("active_tab", new_val, old_val);
   router.push({ name: val })
